@@ -1,4 +1,4 @@
-# ✨ Olá, sou o Lucas 😎, sou um programador e entusiasta 🤓 de ML e DL 🤖
+# ✨ Olá, sou o Lucas 😎, sou um programador e entusiasta IA 🤖
 ## Amo Código 🐍, mas também amo Design ✒️.
 ## Estou me formando 👨‍🎓 em Analise e desenvolvimento de sistemas 💻 e estou cursando Engenharia Elétrica ⚡💡.
   [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LucasATS/)
