@@ -9,7 +9,7 @@
   <a href="mailto:lucas.almida.da.silva@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail"></a>  
 </p>
  
-<img align="right" alt="Lucas-pic" height="150" style="border-radius: 30px;" src="eu_cartoon1.png">
+<img align="right" alt="Lucas-pic" height="150" style="border-radius: 20px;" src="eu_cartoon1.png">
 
 ![Lucas's GitHub stats](https://github-readme-stats.vercel.app/api?username=LucasATS&show_icons=true)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LucasATS&layout=compact)](https://github.com/LucasATS/)
