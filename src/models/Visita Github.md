@@ -2,7 +2,7 @@
 
 ## HTML
 
-> subistitua <LINK DA PAGINA AQUI> por algum link do seu github
+### subistitua <LINK DA PAGINA AQUI> por algum link do seu github
 
     <!-- VISITE MINHA PÁGINA NO GITHUB :D -->
     <style> 
