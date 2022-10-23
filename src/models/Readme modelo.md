@@ -1,9 +1,24 @@
+# NOME DO SITE
+
+## Um modelo de site feito em ___ usando ___. Inspirado em/no ___.
+
+## Ajude-nos, a melhorar o site 🤩❤️
+
+    FEITO POR https://github.com/LucasATS
+    INSPIRADO EM ___.
+    ELEMENTOS FORAM EXTRAIDOS EM/NO ___.
+
+[![preview](./.github/preview.png)](https://lucasats.github.io/LINK/)
+[ACESSAR SITE](https://lucasats.github.io/LINK/)
+
 ## __🎯 METAS__
 - [ ] Task não concluída.
 - [x] Task concluída.
 
+<!--
 ## __❤ AGRADECIMENTOS__
-    [@<NOME>](<LINK>) "<MENSAGEM>"
+[@<NOME>](<LINK>) "<MENSAGEM>"
+-->
 
 ## __🛠 TECNOLOGIAS__
     ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
