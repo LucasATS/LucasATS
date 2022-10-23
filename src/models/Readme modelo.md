@@ -1,6 +1,6 @@
 ## __🎯 METAS__
-- [ ] Task não concluida.
-- [x] Task concluida.
+- [ ] Task não concluída.
+- [x] Task concluída.
 
 ## __❤ AGRADECIMENTOS__
     [@<NOME>](<LINK>) "<MENSAGEM>"
