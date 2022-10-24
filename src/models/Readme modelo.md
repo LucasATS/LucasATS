@@ -9,7 +9,7 @@
     ELEMENTOS FORAM EXTRAIDOS EM/NO ___.
 
 [![preview](./.github/preview.png)](https://lucasats.github.io/LINK/)
-[ACESSAR SITE](https://lucasats.github.io/LINK/)
+[🔗 ACESSE O PROJETO ](https://lucasats.github.io/LINK/)
 
 ## __🎯 METAS__
 - [ ] Task não concluída.
