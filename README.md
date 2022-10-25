@@ -1,4 +1,5 @@
-# <img height="60" alt="Hello world" src="https://i0.wp.com/polekon.org/wp-content/uploads/2021/12/hello_world_title3.gif?resize=700%2C239&ssl=1"> ✨ Olá, sou o Lucas 😎, sou programador e entusiasta de IA 🤖
+# <img height="60" alt="Hello world" src="https://i0.wp.com/polekon.org/wp-content/uploads/2021/12/hello_world_title3.gif?resize=700%2C239&ssl=1"> 
+✨ Olá, sou o Lucas 😎, sou programador e entusiasta de IA 🤖
 ## Amo Código 🐍, tanto quanto amo Design ✒️. 
 ## Estou me formando 👨‍🎓 em Analise e desenvolvimento de sistemas 💻 na INSTED e estou cursando 4° Semestre Engenharia Elétrica ⚡💡 na UFMS.
 
