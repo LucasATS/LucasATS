@@ -1,9 +1,12 @@
-<img height="60" alt="Hello world" src="https://i0.wp.com/polekon.org/wp-content/uploads/2021/12/hello_world_title3.gif?resize=700%2C239&ssl=1">
-
+<p align="center">
+  <img height="100" alt="Hello world" src="https://i0.wp.com/polekon.org/wp-content/uploads/2021/12/hello_world_title3.gif?resize=700%2C239&ssl=1">
+</p>
+  
 # ✨ Olá, sou o Lucas 😎, sou programador e entusiasta de IA 🤖
 ### Amo Código 🐍, tanto quanto amo Design ✒️. 
 ### Estou me formando 👨‍🎓 em Analise e desenvolvimento de sistemas 💻 na INSTED e estou cursando 4° Semestre Engenharia Elétrica ⚡💡 na UFMS.
 
+## __😜 LINKS__
 <p align="center">
   <a href="https://github.com/LucasATS/"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Github"></a>
   <a href="https://www.instagram.com/lukaolmd/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="instagram"></a>
@@ -12,7 +15,9 @@
   <a href="https://discord.com/channels/@Lucas%20ATS#9901"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="discord"></a>  
 </p>
  
-<img align="right" alt="Lucas-pic" height="150" style="border-radius: 60px;" src="./src/img/cartoon1.png">
+<!-- <img align="right" alt="Lucas-pic" height="150" style="border-radius: 60px;" src="./src/img/cartoon1.png"> -->
 
-![Lucas's GitHub stats](https://github-readme-stats.vercel.app/api?username=LucasATS&show_icons=true)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LucasATS&layout=compact)](https://github.com/LucasATS/)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=LucasATS&amp;show_icons=true" alt="Lucas&#39;s GitHub stats">
+  <a href="https://github.com/LucasATS/"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasATS&amp;layout=compact" alt="Top Langs"></a>
+</p>
