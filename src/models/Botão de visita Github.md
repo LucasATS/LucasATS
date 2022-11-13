@@ -1,8 +1,12 @@
 # Sistema de botão para visitar página do github
 
-> subistitua <LINK DA PAGINA AQUI> por algum link ou pelo repostirório do projeto.
+Exemplo: 
 
-## Modelo simples
+![Exemplo](https://raw.githubusercontent.com/LucasATS/LucasATS/main/src/img/Exemplo%20btn%20visita%20github.jpeg)
+
+> subistitua '< LINK DA PAGINA AQUI >' por algum link ou pelo repostirório do projeto.
+
+## Modelo 1
 
     <!-- VISITE MINHA PÁGINA NO GITHUB :D -->
     <style> 
