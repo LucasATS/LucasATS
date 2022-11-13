@@ -6,7 +6,7 @@ Exemplo:
 
 > subistitua '< LINK DA PAGINA AQUI >' por algum link ou pelo repostirório do projeto.
 
-## Modelo 2
+## Versão 2
 
     <!-- VISITE MINHA PÁGINA NO GITHUB :D -->
     <style> 
@@ -27,7 +27,7 @@ Exemplo:
         </a>
     </span>
 
-## Modelo 1
+## Versão 1
 
     <!-- VISITE MINHA PÁGINA NO GITHUB :D -->
     <style> 
