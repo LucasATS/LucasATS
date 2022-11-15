@@ -12,6 +12,15 @@
 
 [🔗 ACESSE O PROJETO ](https://lucasats.github.io/LINK/)
 
+## __📂 PLAY__
+> gitclone:
+
+> Install: npm install ---, pip install ---
+
+> npm start
+
+> npm run deploy
+
 ## __🎯 METAS__
 - [ ] Task não concluída.
 - [x] Task concluída.
