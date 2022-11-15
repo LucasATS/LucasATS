@@ -1,4 +1,4 @@
-# NOME DO SITE
+# NOME DO SITE: SOBRENOME DO SITE <SE TIVER>
 
 ### Um modelo de site feito em ___ usando ___. Inspirado em/no ___.
 
@@ -13,9 +13,9 @@
 [🔗 ACESSE O PROJETO ](https://lucasats.github.io/LINK/)
 
 ## __📂 PLAY__
-> gitclone:
+> gitclone: <LINK DO GITCLONE>
 
-> Install: npm install ---, pip install ---
+> Install: <npm install ---, pip install --->
 
 > npm start
 
@@ -31,14 +31,14 @@
 -->
 
 ## __🛠 TECNOLOGIAS__ 
-*MAIS MODELOS EM: https://dev.to/envoy_/150-badges-for-github-pnk* 
+
     ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
     ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
     ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
     ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-    
+*MAIS MODELOS EM: https://dev.to/envoy_/150-badges-for-github-pnk*    
 
-## __😘 CONTATO__
+## __😘 CONTATO__ <ALTERE APENAS OS LINKS DOS HREF>
 <p align="left">
   <a href="https://github.com/LucasATS/"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Github"></a>
   <a href="https://www.instagram.com/lukaolmd/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="instagram"></a>
