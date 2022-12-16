@@ -18,6 +18,6 @@
 <!-- <img align="right" alt="Lucas-pic" height="150" style="border-radius: 60px;" src="./src/img/cartoon1.png"> -->
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=LucasATS&amp;show_icons=true" alt="Lucas&#39;s GitHub stats">
-  <a href="https://github.com/LucasATS/"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasATS&amp;layout=compact" alt="Top Langs"></a>
+  <img src="https://github-readme-stats.vercel.app/api?username=LucasATS&amp;show_icons=true" alt="LucasATS GitHub stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasATS&amp;layout=compact" alt="Top Langs">
 </p>
