@@ -4,19 +4,22 @@ import Timeline from '../components/Timeline';
 import './Home.css';
 
 function App() {
-  return (<>
-
-    {/* 1° Section */}
-    <div className='rol' style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-      <div style={{ position: 'absolute', top: '20%', left:'5%' }}><SobreMim /></div>
-      <Habilidades />
-    </div>
-
-    {/* 2° Section */}
+  return (
     <div>
-      <Timeline />
-    </div>
-  </>);
+
+      {/* 1° Section */}
+      <div className='row' style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+        <div style={{ marginLeft: '16px', marginTop: '50px', zIndex: '6' }}><SobreMim /></div>
+        <Habilidades />
+      </div>
+
+      {/* 2° Section */}
+      <div className='col'>
+          <span id="Experiências"><Timeline titulo="MELHORES MOMENTOS DA MINHA VIDA"/></span>
+          <span id="Certificados"><Timeline titulo="CAGADAS SUPLEMAS"/></span>
+      </div>
+
+    </div>);
 }
 
 export default App;

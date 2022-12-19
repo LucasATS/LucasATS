@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  /* overflow-x: unset; */
   
   background: #3cbbe3;
   background: -moz-linear-gradient(180deg, #3cbbe3 0%, #78d5e9 100%);
@@ -13,10 +13,14 @@ body {
   height: 1000px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* SCROLL */
-::-webkit-scrollbar { width: 10px; }
-::-webkit-scrollbar-track { background: #60d8fc; }
-::-webkit-scrollbar-thumb { background: #319ebf; border-radius: 16px; }
+::-webkit-scrollbar { width: 10px; height: 0px; }
+::-webkit-scrollbar-track { background: #3cbbe3; }
+::-webkit-scrollbar-thumb { background: #209abf; border-radius: 16px; }
 ::-webkit-scrollbar-thumb:hover { background: #2c8fac; }
 
 /* EFEITO LINK ANCORA */

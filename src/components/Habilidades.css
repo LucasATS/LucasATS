@@ -1,6 +1,8 @@
 .orbit {
     width: 600px;
     height: 600px;
+
+    
 }
 
 .orbit-icon {
@@ -14,13 +16,15 @@
     text-align: center;
     display: block;
 
-    filter: drop-shadow(0px 0px 10px #0000003e);
+    filter: drop-shadow(0px 0px 10px #0000003e);   
 }
 
 .orbit-wrap {
     height: 40em;
     list-style: none;
     font-size: 1.3em;
+
+    
 }
 
 .orbit-wrap>li {
@@ -28,6 +32,8 @@
     left: 80%;
     top: 55%;
     transform: translate(-50%, -50%);
+
+    
 }
 
 .orbit-wrap>li:hover ul {
@@ -35,23 +41,33 @@
     border-color: #fff;
 
     filter: drop-shadow(0px 0px 10px #0000003e);
+
+    
 }
 
 .orbit-wrap>li:hover~li ul {
     border-color: rgba(255, 255, 255, 0.2);
     filter: drop-shadow(0px 0px 10px #0000003e);
+
+    
 }
 
 .orbit-wrap>li:hover~li ul li {
     opacity: 0.4;
+
+    
 }
 
 ul[class^=ring] {
     transition: all 300ms ease-in-out;
+
+    
 }
 
 ul[class^=ring] li {
     transition: all 300ms ease-in-out;
+
+    
 }
 
 .ring-0 {

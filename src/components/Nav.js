@@ -15,8 +15,8 @@ function Nav() {
         <Link className='center hover-this' to=""><span>🏠 Home</span></Link>
         <Link className='center hover-this' to="Projetos"><span>🏛️ Projetos</span></Link>
         <Link className='center hover-this' to="Sobre"><span>💁🏻 Sobre mim</span></Link>
-        <Link className='center hover-this' to="Experiencias"><span>👩‍💻 Experiencias</span></Link>
-        <Link className='center hover-this' to="Certificados"><span>👨‍🎓 Certificados</span></Link>
+        <Link className='center hover-this' to="" onClick={() => { window.location.href = "#Experiências"; }}><span>👩‍💻 Experiências</span></Link>
+        <Link className='center hover-this' to="" onClick={() => { window.location.href = "#Certificados"; }}><span>👨‍🎓 Certificados</span></Link>
         <Link className='center hover-this' to="" onClick={() => { window.location.href = "#Contato"; }}><span>📞 Contato</span></Link>
       </nav>
 
