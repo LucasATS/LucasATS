@@ -12,4 +12,4 @@ function Sobremim() {
   );
 }
 
-export default Sobremim;
+export { Sobremim };
