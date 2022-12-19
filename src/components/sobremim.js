@@ -3,7 +3,7 @@ import { TextoCards } from "../util/Listas.js";
 import Card from "./Card.js";
 import './Sobremim.css';
 
-function SobreMim() {
+function Sobremim() {
   
   return (
     <div>
@@ -12,4 +12,4 @@ function SobreMim() {
   );
 }
 
-export default SobreMim;
+export default Sobremim;

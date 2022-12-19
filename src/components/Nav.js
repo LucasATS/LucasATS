@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import { React, useEffect } from "react"
-import { HoverDrag } from "../util/Efeitos";
+import { HoverDrag } from "../util/Efeitos.js";
 import './Nav.css';
 
 function Nav() {

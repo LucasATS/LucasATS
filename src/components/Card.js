@@ -1,5 +1,5 @@
 import { React, useEffect, useState } from "react"
-import { Hover3D } from "../util/Efeitos";
+import { Hover3D } from "../util/Efeitos.js";
 import './Card.css';
 
 var i = 0, j = 1;

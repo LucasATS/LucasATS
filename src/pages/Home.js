@@ -1,6 +1,6 @@
-import Habilidades from '../components/Habilidades';
-import SobreMim from '../components/Sobremim';
-import Timeline from '../components/Timeline';
+import Habilidades from '../components/Habilidades.js';
+import Sobremim from '../components/Sobremim.js';
+import Timeline from '../components/Timeline.js';
 import './Home.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
 
       {/* 1° Section */}
       <div className='row' style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-        <div style={{ marginLeft: '16px', marginTop: '50px', zIndex: '6' }}><SobreMim /></div>
+        <div style={{ marginLeft: '16px', marginTop: '50px', zIndex: '6' }}><Sobremim /></div>
         <Habilidades />
       </div>
 
