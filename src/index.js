@@ -11,7 +11,6 @@ root.render(
     <Routes>
       <Route path='/' element={<Nav />} >
         <Route index element={<Home />} />
-        {/* <Route path="/:cidade" element={<PrevisaoPesquisadaDetalhada />} /> */}
       </Route>
     </Routes>
   </BrowserRouter>

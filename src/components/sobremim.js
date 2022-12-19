@@ -1,12 +1,14 @@
 import { React } from "react"
-import './sobremim.css';
+import { TextoCards } from "../util/Listas.js";
+import Card from "./Card.js";
+import './Sobremim.css';
 
 function SobreMim() {
+  
   return (
     <div>
-      <p>SOBRE MIM</p>
-    </div >
-
+      <Card texto={ TextoCards }/>
+    </div>
   );
 }
 
