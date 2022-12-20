@@ -1,6 +1,7 @@
 import Habilidades from '../components/Habilidades.js';
 import { Sobremim } from '../components/Sobremim.js';
 import Timeline from '../components/Timeline.js';
+import { historico } from '../util/Listas.js';
 import './Home.css';
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
 
       {/* 2° Section */}
       <div className='col'>
-        <span id="Experiências"><Timeline titulo="MELHORES MOMENTOS DA MINHA VIDA" /></span>
-        <span id="Certificados"><Timeline titulo="CAGADAS SUPLEMAS" /></span>
+        <span id="Experiências"><Timeline titulo="Experiências" textos={ historico.experiencias } /></span>
+        <span id="FormacaoAcademica"><Timeline titulo="Formação Acadêmica" textos={ historico.formacaoAcademica } /></span>
+        <span id="Certificados"><Timeline titulo="Certificados" textos={ historico.certificados } /></span>
       </div>
 
     </div>);

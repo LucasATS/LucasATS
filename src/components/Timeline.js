@@ -21,22 +21,9 @@ const Timeline = (props) => {
   return (
     <div className="timeline">
       <div className="center col"><h2 className="TL-titulo">{props.titulo}</h2></div>
-      <TimelineCard titulo="2017" texto="Lorem ipsum.." direcao={direcao.left} />
-      <TimelineCard titulo="2010" texto="Lorem ipsum.." direcao={direcao.right} />
-      <TimelineCard titulo="2017" texto="Lorem ipsum.." direcao={direcao.left} />
-      <TimelineCard titulo="2010" texto="Lorem ipsum.." direcao={direcao.right} />
-      <TimelineCard titulo="2017" texto="Lorem ipsum.." direcao={direcao.left} />
-      <TimelineCard titulo="2010" texto="Lorem ipsum.." direcao={direcao.right} />
-      <TimelineCard titulo="2017" texto="Lorem ipsum.." direcao={direcao.left} />
-      <TimelineCard titulo="2010" texto="Lorem ipsum.." direcao={direcao.right} />
-      <TimelineCard titulo="2017" texto="Lorem ipsum.." direcao={direcao.left} />
-      <TimelineCard titulo="2010" texto="Lorem ipsum.." direcao={direcao.right} />
-      <TimelineCard titulo="2017" texto="Lorem ipsum.." direcao={direcao.left} />
-      <TimelineCard titulo="2010" texto="Lorem ipsum.." direcao={direcao.right} />
-      <TimelineCard titulo="2017" texto="Lorem ipsum.." direcao={direcao.left} />
-      <TimelineCard titulo="2010" texto="Lorem ipsum.." direcao={direcao.right} />
-      <TimelineCard titulo="2017" texto="Lorem ipsum.." direcao={direcao.left} />
-      <TimelineCard titulo="2010" texto="Lorem ipsum.." direcao={direcao.right} />
+      {props.textos.map((item, index) => {
+        return <TimelineCard titulo={item.titulo} texto={item.desc} direcao={ index%2 === 0 ? direcao.left : direcao.right } />
+      })}
     </div>
   );
 }

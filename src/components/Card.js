@@ -5,6 +5,9 @@ import './Card.css';
 var i = 0, j = 1;
 
 const Card = (props) => {
+  // MILISEGUNDOS: 4000ms = 4s
+  const VELOCIDADE_DE_ESCRITA = 16, VELOCIDADE_PASSAR_CARD = 4000;
+
   const [frases, setFrases] = useState('');
   const [texto, setTexto] = useState(props.texto[0]);
 
@@ -27,14 +30,14 @@ const Card = (props) => {
         setFrases(frases + texto.charAt(i));
         i++;
       }
-    }, 25);
+    }, VELOCIDADE_DE_ESCRITA);
     return () => clearInterval(interval);
   });
 
   useEffect(() => {
     const interval = setInterval(() => {
       FraseNext();
-    }, 4000);
+    }, VELOCIDADE_PASSAR_CARD);
     return () => clearInterval(interval);
   });
 

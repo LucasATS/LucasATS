@@ -14,15 +14,15 @@
 
 .nav-painel a {
     text-decoration: none;
-    min-width: 180px;
-    max-width: 180px;
-    width: 180px;
+    min-width: 225px;
+    max-width: 225px;
+    width: 225px;
 }
 
 .nav-painel span {
     padding: 12px;
     margin: 6px;
-
+    
     font-size: 14px;
     font-weight: 600;
     color: #454545;
