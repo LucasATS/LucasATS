@@ -1,24 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
 .timeline>*,
 .timeline {
     box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Source Code Pro', monospace;
+
+    color: #fff;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.timeline h2 {
+    color: #fff;
 }
 
 .timeline {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+
+    transition: all 0.3s ease;
 }
 
 .TL-titulo {
-    background-color: #fff;
+    color: #fff;
     border-radius: 6px;
     padding: 6px;
+    width: 90%;
     z-index: 2;
+
+    background-color: #2A2A32;
+    box-shadow: 0 1px 5px #00000099;
 }
 
 .timeline::after {
-    background-color: #ffffff;
+    background-color: #2A2A32;
+    box-shadow: 0 1px 5px #00000099;
+    filter: drop-shadow(0px 10px 10px #0000003e);
     position: absolute;
     margin-left: -3px;
     border-radius: 6px;
@@ -34,6 +52,8 @@
     position: relative;
     background-color: inherit;
     width: 50%;
+
+    transition: all 0.3s ease;
 }
 
 /* BOLINHA */
@@ -43,8 +63,8 @@
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: white;
-    border: 4px solid #FF9F55;
+    background-color: #2A2A32;
+    border: 4px solid white;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -66,9 +86,9 @@
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid white;
+    border: medium solid #2A2A32;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent #2A2A32;
 }
 
 .TL-right::before {
@@ -79,9 +99,9 @@
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid white;
+    border: medium solid #2A2A32;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent #2A2A32 transparent transparent;
 }
 
 .TL-right::after {
@@ -90,9 +110,17 @@
 
 .TL-content {
     padding: 20px 30px;
-    background-color: white;
     position: relative;
     border-radius: 6px;
+
+    background-color: #2A2A32;
+    box-shadow: 0 1px 5px #00000099;
+
+    transition: all 0.3s ease;
+}
+
+.TL-content:hover {
+    box-shadow: 0 5px 20px 5px #00000044;
 }
 
 @media screen and (max-width: 600px) {
@@ -109,9 +137,9 @@
 
     .TL-container::before {
         left: 60px;
-        border: medium solid white;
+        border: medium solid #2A2A32;
         border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
+        border-color: transparent #2A2A32 transparent transparent;
     }
 
     .TL-left::after,

@@ -1,48 +1,70 @@
-.nav-painel {
+.nav-painel,
+.nav-painel-mobile {
     height: 60px;
     width: 100%;
 
-    display: flex;
-    justify-content: space-around;
+    /* display: flex; */
+    /* justify-content: space-around; */
 
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px 0px 25px 25px;
 
     filter: drop-shadow(0px 10px 10px #0000003e);
-    
+
     position: fixed;
     z-index: 10;
 
     transition: all 0.3s ease;
 }
 
-.nav-painel a {
+.nav-painel-mobile {
+    background-color: rgba(255, 255, 255, 0.50) !important;
+}
+
+.nav-painel-mobile *,
+.nav-painel-mobile {
+    visibility: hidden;
+}
+
+.nav-painel a,
+.nav-painel-mobile a {
     text-decoration: none;
     min-width: 225px;
     max-width: 225px;
-    width: 225px;
 }
 
-.nav-painel span {
+.nav-painel-mobile svg {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.nav-painel span,
+.nav-painel-mobile span {
     padding: 12px;
     margin: 6px;
-    
+
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
+    fill: #ffffff;
 
     border-radius: 16px;
 
     font-family: Arial, Helvetica, sans-serif;
-    
+
     transition: all 0.1s ease;
 }
 
 .nav-painel span:hover,
 .nav-painel span:checked,
 .nav-painel span:visited,
-.nav-painel span:focus {
+.nav-painel span:focus,
+.nav-painel-mobile span:hover,
+.nav-painel-mobile span:checked,
+.nav-painel-mobile span:visited,
+.nav-painel-mobile span:focus {
     color: #454545;
+    fill: #454545;
     font-size: 16px;
     transition: all 0.1s ease;
     background-color: #ffffff;
@@ -72,4 +94,64 @@ footer {
 footer p {
     gap: 12px;
     filter: drop-shadow(0px 10px 10px #0000003e);
+}
+
+.menu-fechar{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+}
+    
+.menu-fundo{
+    background-color: rgba(0, 0, 0, 0.70);
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;                
+}    
+    
+.menu{
+    background-color: rgba(0, 0, 0, 0.90);
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    width: 250px;
+    height: 100%;
+    left: -250px;
+    top: 0;
+}
+
+@media screen and (max-width: 600px) {
+
+    .nav-painel {
+        visibility: hidden;
+    }
+
+    .nav-painel-mobile span {
+        font-size: 12px;
+    }
+
+    .nav-painel-mobile span:hover {
+        font-size: 14px;
+    }
+
+    .nav-painel-mobile *,
+    .nav-painel-mobile {
+        visibility: visible;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
 }

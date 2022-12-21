@@ -22,7 +22,7 @@ const Timeline = (props) => {
     <div className="timeline">
       <div className="center col"><h2 className="TL-titulo">{props.titulo}</h2></div>
       {props.textos.map((item, index) => {
-        return <TimelineCard titulo={item.titulo} texto={item.desc} direcao={ index%2 === 0 ? direcao.left : direcao.right } />
+        return <TimelineCard titulo={item.titulo} texto={item.desc} direcao={index % 2 === 0 ? direcao.left : direcao.right} />
       })}
     </div>
   );

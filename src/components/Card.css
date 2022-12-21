@@ -4,6 +4,7 @@
     width: 500px;
     height: auto;
 
+    font-size: 14px;
     transition: all 0.3s ease;
 }
 
@@ -14,9 +15,9 @@
     padding: 12px;
     background-color: #2A2A32;
     transform-style: preserve-3d;
-    
+
     transition: all 0.3s ease;
-    
+
     box-shadow: 0 1px 5px #00000099;
 }
 
@@ -25,21 +26,56 @@
     box-shadow: 0 5px 20px 5px #00000044;
 }
 
-.Card h3 { font-family: 'Source Code Pro', monospace; }
+.Card h3 {
+    font-family: 'Source Code Pro', monospace;
+}
 
-.dot-red { background-color: #ED4040; }
-.dot-yellow { background-color: #ECB62C; }
-.dot-green { background-color: #26E05A; }
+.dot-red {
+    background-color: #ED4040;
+}
 
-.dot-red, .dot-yellow, .dot-green {
+.dot-yellow {
+    background-color: #ECB62C;
+}
+
+.dot-green {
+    background-color: #26E05A;
+}
+
+.dot-red,
+.dot-yellow,
+.dot-green {
     width: 12px;
     height: 12px;
     margin: 5px;
     border-radius: 360px;
 }
 
-.roxo { color: #C678DD; }
-.amarelo { color: #E5C07B; }
-.azul { color: #56B6C2; }
-.verde { color: #98C379; }
-.branco { color: #FEFEFE; }
+.roxo {
+    color: #C678DD;
+}
+
+.amarelo {
+    color: #E5C07B;
+}
+
+.azul {
+    color: #56B6C2;
+}
+
+.verde {
+    color: #98C379;
+}
+
+.branco {
+    color: #FEFEFE;
+}
+
+@media screen and (max-width: 600px) {
+
+    .CardHover {
+        width: 400px;
+        font-size: 12px;
+    }
+
+}

@@ -46,6 +46,14 @@ body {
 
 h1, h2, h3, h4, h5 {
   font-weight: 600;
-  color: #454545;
+  color: #323232;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
 }
