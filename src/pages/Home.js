@@ -8,13 +8,13 @@ function App() {
   return (
     <div>
       {/* 1° Section */}
-      <div className='row' style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+      <section className='row' style={{ display: 'flex', justifyContent: 'space-evenly' }}>
         <div style={{ marginLeft: '16px', marginTop: '50px', zIndex: '6' }}><Card texto={textoCards} /></div>
         <Habilidades />
-      </div>
+      </section>
 
       {/* 2° Section */}
-      <div className='col'>
+      <section className='col'>
         <span id="Experiências" style={{ width: 100 + '%', height: 60 + 'px' }} />
         <span ><Timeline titulo="Experiências" textos={historico.experiencias} /></span>
 
@@ -23,7 +23,7 @@ function App() {
 
         <span id="Certificados" style={{ width: 100 + '%', height: 60 + 'px' }} />
         <span ><Timeline titulo="Certificados" textos={historico.certificados} /></span>
-      </div>
+      </section>
     </div>);
 }
 
