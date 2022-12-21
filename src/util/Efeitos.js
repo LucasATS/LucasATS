@@ -10,11 +10,13 @@ const Hover3D = (elemento, sensibilidade = 15, classe = '.CardHover') => {
             yMove = y / height * (sensibilidade * 2) - sensibilidade;
 
         elmnto.style.transform = `rotateY(${xMove}deg) rotateX(${yMove}deg)`;
-        if (e.type === 'mouseleave') elmnto.style.transform = '';
+        if (e.type === 'mouseleave' || e.type === 'touchmove') elmnto.style.transform = '';
     };
 
-    link.forEach(b => b.addEventListener('mousemove', animateit));
-    link.forEach(b => b.addEventListener('mouseleave', animateit));
+    link.forEach(b => b.addEventListener('touchmove', animateit));
+    // link.forEach(b => b.addEventListener('touchend', animateit));
+    // link.forEach(b => b.addEventListener('mousemove', animateit));
+    // link.forEach(b => b.addEventListener('mouseleave', animateit));
 }
 
 const HoverDrag = (elemento, sensibilidade = 15, classe = '.hover-this') => {
@@ -29,11 +31,13 @@ const HoverDrag = (elemento, sensibilidade = 15, classe = '.hover-this') => {
             yMove = y / height * (sensibilidade * 2) - sensibilidade;
         elmnto.style.transform = `translate(${xMove}px, ${yMove}px)`;
         
-        if (e.type === 'mouseleave') elmnto.style.transform = '';
+        if (e.type === 'mouseleave' || e.type === 'touchmove') elmnto.style.transform = '';
     };
 
-    link.forEach(b => b.addEventListener('mousemove', animateit));
-    link.forEach(b => b.addEventListener('mouseleave', animateit));
+    link.forEach(b => b.addEventListener('touchmove', animateit));
+    // link.forEach(b => b.addEventListener('touchend', animateit));
+    // link.forEach(b => b.addEventListener('mousemove', animateit));
+    // link.forEach(b => b.addEventListener('mouseleave', animateit));
 }
 
 export { Hover3D, HoverDrag };

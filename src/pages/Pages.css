@@ -9,13 +9,13 @@
 .section1-Card {
     margin-left: 16px;
     margin-top: 50px;
-    z-index: 6;
+    z-index: 5;
 }
 
 .section1-Habilidade {
     margin-left: 16px;
     margin-top: 50px;
-    z-index: 6;
+    z-index: 4;
 }
 
 .section2-span {
