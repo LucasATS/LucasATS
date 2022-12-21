@@ -2,26 +2,26 @@ import { historico, textoCards } from '../util/Listas.js';
 import Habilidades from '../components/Habilidades.js';
 import Timeline from '../components/Timeline.js';
 import Card from "../components/Card.js";
-import './Home.css';
+import './Pages.css';
 
 function App() {
   return (
     <div>
       {/* 1° Section */}
-      <section className='row' style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-        <div style={{ marginLeft: '16px', marginTop: '50px', zIndex: '6' }}><Card texto={textoCards} /></div>
-        <Habilidades />
+      <section className='section1'>
+        <div className='section1-Card'><Card texto={textoCards} /></div>
+        <div className='section1-Habilidade'><Habilidades /></div>
       </section>
 
       {/* 2° Section */}
       <section className='col'>
-        <span id="Experiências" style={{ width: 100 + '%', height: 60 + 'px' }} />
+        <span id="Experiências" className='section2-span' />
         <span ><Timeline titulo="Experiências" textos={historico.experiencias} /></span>
 
-        <span id="FormacaoAcademica" style={{ width: 100 + '%', height: 60 + 'px' }} />
+        <span id="FormacaoAcademica" className='section2-span' />
         <span><Timeline titulo="Formação Acadêmica" textos={historico.formacaoAcademica} /></span>
 
-        <span id="Certificados" style={{ width: 100 + '%', height: 60 + 'px' }} />
+        <span id="Certificados" className='section2-span' />
         <span ><Timeline titulo="Certificados" textos={historico.certificados} /></span>
       </section>
     </div>);

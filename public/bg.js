@@ -166,7 +166,7 @@ entities.push(new Terrain({ displacement: 150, scrollDelay: 20, fillStyle: grd, 
 
 //animate background
 function animate() {
-    var grd = bgCtx.createLinearGradient(0, 0, 0, height/2);
+    var grd = bgCtx.createLinearGradient(0, 0, 0, height / 2);
     grd.addColorStop(1, "#6ac3d7");
     grd.addColorStop(0, "#2558A9");
 
@@ -184,3 +184,4 @@ function animate() {
 }
 
 animate();
+window.addEventListener("resize", () => { animate() });

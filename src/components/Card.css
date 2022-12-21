@@ -14,7 +14,7 @@
     border-radius: 6px;
     padding: 12px;
     background-color: #2A2A32;
-    transform-style: preserve-3d;
+    transform-style: preserve-3d;    
 
     transition: all 0.3s ease;
 
@@ -74,7 +74,7 @@
 @media screen and (max-width: 763px) {
 
     .CardHover {
-        max-width: 300px;
+        max-width: 350px;
         font-size: 10px;
     }
 
