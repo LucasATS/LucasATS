@@ -9,7 +9,7 @@
     width: 1.8em;
     height: 1.8em;
     line-height: 2em;
-    font-size: 1.5em;
+    font-size: 1.4em;
     border-radius: 50%;
     background: #ccc;
     color: #fff;
@@ -152,7 +152,7 @@ ul[class^=ring] li {
     z-index: 5;
     width: 15em;
     height: 15em;
-    background: #fff url('../img/pic.jpg') center center/contain no-repeat;;
+    background: #fff url('../img/pic.jfif') center center/contain no-repeat;;
     border-radius: 50%;
 
     filter: drop-shadow(0px 0px 10px #0000003e);

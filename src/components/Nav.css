@@ -5,11 +5,15 @@
     display: flex;
     justify-content: space-around;
 
-    /* background-color: #ffffff25; */
-    filter: drop-shadow(0px 10px 10px #0000003e);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0px 0px 25px 25px;
 
-    position: relative;
+    filter: drop-shadow(0px 10px 10px #0000003e);
+    
+    position: fixed;
     z-index: 10;
+
+    transition: all 0.3s ease;
 }
 
 .nav-painel a {
@@ -25,7 +29,7 @@
     
     font-size: 14px;
     font-weight: 600;
-    color: #454545;
+    color: #ffffff;
 
     border-radius: 16px;
 
@@ -38,9 +42,10 @@
 .nav-painel span:checked,
 .nav-painel span:visited,
 .nav-painel span:focus {
+    color: #454545;
     font-size: 16px;
     transition: all 0.1s ease;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
 }
 
 /* EFEITO DRAG HOVER */
@@ -60,6 +65,8 @@ nav {
 
 footer {
     padding: 6px;
+    /* width: 100%;
+    background: #ffffff00 url('../img/bg/grama (1).png') center center/auto repeat-x; */
 }
 
 footer p {

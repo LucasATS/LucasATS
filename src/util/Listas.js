@@ -39,7 +39,7 @@ const historico = {
     experiencias: [
         { titulo: 'Março de 2020 - Janeiro de 2021', desc: 'Exército Brasileiro - TI - Trabalhei com tecnologia da informação, suporte ao usuário, manutenção de maquinas e prestação de serviços militares.' },
         { titulo: 'Agosto de 2019 - Novembro de 2019', desc: 'ProfEPT/IFMS - Suporte técnico - Auxiliei a turma do 3° ano do ensino médio na Escola Silvio Oliveira dos Santos no desenvolvimentos de jogos digitais voltados à biologia.' },
-        { titulo: '2020', desc: 'BLA BLA BLA' },
+        { titulo: 'Janeiro de 2017 - Maio 2018', desc: 'Gente Sip - Assistente Administrativo (Menor Aprendiz)' },
     ],
     formacaoAcademica: [
         { titulo: '2021 - 2026', desc: 'UFMS - Bacharelado em Engenharia Elétrica, Tecnologia em Engenharia Elétrica e Eletrônica.' },
