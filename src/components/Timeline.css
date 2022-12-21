@@ -116,12 +116,12 @@
     background-color: #2A2A32;
     box-shadow: 0 1px 5px #00000099;
 
-    transition: all 0.3s ease;
+    /* transition: all 0.3s ease; */
 }
 
-.TL-content:hover {
+/* .TL-content:hover {
     box-shadow: 0 5px 20px 5px #00000044;
-}
+} */
 
 @media screen and (max-width: 600px) {
 

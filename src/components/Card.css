@@ -71,11 +71,11 @@
     color: #FEFEFE;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 763px) {
 
     .CardHover {
-        width: 400px;
-        font-size: 12px;
+        max-width: 300px;
+        font-size: 10px;
     }
 
 }

@@ -9,7 +9,7 @@
     width: 1.8em;
     height: 1.8em;
     line-height: 2em;
-    font-size: 1.4em;
+    font-size: 1.2em;
     border-radius: 50%;
     background: #ccc;
     color: #fff;
@@ -237,4 +237,12 @@ ul[class^=ring] li {
 .fa-Html {
     background: #10a1fb00 url('../img/icons/Html.png') center center/contain no-repeat;
     border-radius: 0px !important;
+}
+
+@media screen and (max-width: 763px) {
+
+    .orbit-icon {
+        font-size: 1em;
+    }
+
 }
