@@ -4,7 +4,7 @@ import Timeline from '../components/Timeline.js';
 import Card from "../components/Card.js";
 import './Pages.css';
 
-function App() {
+function Home() {
   return (
     <div>
       {/* 1° Section */}
@@ -27,4 +27,4 @@ function App() {
     </div>);
 }
 
-export default App;
+export default Home;

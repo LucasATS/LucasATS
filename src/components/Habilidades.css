@@ -140,7 +140,7 @@ ul[class^=ring] li {
     width: 15em;
     height: 15em;
     /* background: #fff url('../img/pic.jfif') center center/contain no-repeat; */
-    background: #fff url('../img/pic.jfif') center center/contain no-repeat;
+    background: #fff url('https://avatars.githubusercontent.com/u/64665422?v=4') center center/contain no-repeat;
     border-radius: 50%;
 
     filter: drop-shadow(0px 0px 10px #0000003e);
