@@ -1,5 +1,88 @@
-.painel-test {
-    background-color: white;
+.RepoGrid {
+    display: flex;
+    justify-content: center;
+}
+
+.RepoGrid-grid {
+    display: grid;
+    grid-template-areas: ". . .";
+    gap: 5vw 5vw;
+    /* gap: 50px 50px; */
+}
+
+.RepoCard {
+    width: 300px;
+    height: auto;
+
+    border-radius: 6px;
+    background-color: #454545;
     position: relative;
     z-index: 1;
+    box-shadow: 0 1px 5px #00000099;
+}
+
+.RepoCard * {
+    color: white;
+}
+
+.RepoCard-img {
+    border-radius: 6px 6px 0px 0px;
+    width: 300px;
+    height: 150px;
+}
+
+.RepoCard-span-img * {
+    position: absolute;
+    top: 0;
+}
+
+.RepoCard-span-img h4 {
+    top: -10px;
+    left: 14px;
+    color: white;
+    border-radius: 16px;
+    padding: 6px;
+    background-color: #424242cc;
+}
+
+.RepoCard-span-img {
+    height: 150px;
+}
+
+.RepoCard-StarWatchForks {
+    position: absolute;
+    bottom: 0px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.RepoCard-LinksExternos {
+    position: absolute;
+    bottom: 0px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.RC-left {
+    left: 16px;
+}
+
+.RC-right {
+    right: 16px;
+}
+
+@media screen and (max-width: 851px) {
+    .RepoGrid-grid {
+        grid-template-areas: ". .";
+    }
+}
+
+@media screen and (max-width: 763px) {
+    .RepoGrid-grid {
+        grid-template-areas: ".";
+    }
 }

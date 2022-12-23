@@ -26,8 +26,8 @@
 }
 
 .Card:hover {
-    transition-duration: 150ms;
-    box-shadow: 0 5px 20px 5px #00000044;
+    /* transition-duration: 150ms; */
+    /* box-shadow: 0 5px 20px 5px #00000044; */
 }
 
 .Card h3 {

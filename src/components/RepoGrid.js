@@ -1,77 +1,56 @@
 import { useEffect, useState } from 'react';
-import { GetGithubLanguage, GetGitHubRepo } from '../util/Api';
+import { Link } from 'react-router-dom';
+import { GetGitHubRepo } from '../util/Api';
 import './RepoGrid.css';
 
-let RepoCardTrigger = false;
 const RepoCard = (props) => {
-    const [languages, setLanguages] = useState('');
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            if (!RepoCardTrigger) {
-                GetGithubLanguage(props.languages_url).then(res => setLanguages(res.data));
-                console.log(languages, typeof(languages));
-                if (languages !== '') RepoCardTrigger = true;
-                console.log('RepoCardTrigger:', RepoCardTrigger);
-            }
-        }, 500);
-        return () => clearInterval(interval);
-    });
-
     return (
-        <div className="painel-test">
-            <h4>{props.name}</h4>
+        <div className="RepoCard">
+            <span className='RepoCard-span-img'>
+                <span className='RepoCard-img' style={{ background: `#60606000 url(https://raw.githubusercontent.com/LucasATS/${props.name}/main/.github/preview.png) center center/cover no-repeat` }} />
+                <h4>{props.name}</h4>
+            </span>
             <h5>{props.desc}</h5>
-            <h5>stars: {props.stars}</h5>
             <h5>topics: {props.topics.map((a) => (a + " "))}</h5>
-            <h5>watchers: {props.watchers}</h5>
-            <h5>demo: {props.homepage}</h5>
-            <h5>link: {props.link}</h5>
-            <h5>forks: {props.forks}</h5>
-            {/* { if (typeof(languages) !== typeof('string'))  } */}
-            {/* <h5 dangerouslySetInnerHTML={{ if(5>4) __html: Object.keys(languages).map(a => ' ' + a + '.') }}/> */} 
-            <h5>preview: {props.preview}</h5>
-            <span style={{ width: 350 + 'px', height: 200 + 'px', background: `#fff url(https://raw.githubusercontent.com/LucasATS/${props.name}/main/.github/preview.png) center center/contain no-repeat` }} />
-            <br />
+            <h5>language: {props.language}</h5>
+            <span>
+                <span className='RC-left  RepoCard-LinksExternos'>
+                    { props.homepage !== '' ? <a href={props.homepage} target="_blank" rel="noreferrer"><h5>Testar</h5></a> : ''}
+                    <a href={props.html_url} target="_blank" rel="noreferrer"><h5>Codigo</h5></a>
+                </span>
+                <span className='RC-right RepoCard-StarWatchForks'>
+                    <h5 title='Stars'>⭐ {props.stars}</h5>
+                    <h5 title='Watchers'>👁️ {props.watchers}</h5>
+                    <h5 title='Forks'>✨ {props.forks}</h5>
+                </span>
+            </span>
         </div>
     );
 }
 
 let RepoGridTrigger = false;
 const RepoGrid = () => {
-    const [card, setCard] = useState(<div className="painel-test"><h2>CARREGANDO...</h2></div>);
+    const [card, setCard] = useState(<div className="RepoCard-loading"><h2>CARREGANDO...</h2></div>);
 
     useEffect(() => {
         const interval = setInterval(() => {
             if (!RepoGridTrigger) {
                 GetGitHubRepo().then(res => {
                     const dados = res.dados.data;
-                    // const language = GetGithubLanguage();
-
-                    // console.log( dados[0] );
-                    // setCard(<div className="painel-test"><h2 dangerouslySetInnerHTML={{__html: dados.map((a) => ' ' + a.name) + '.'}}/></div>)
-
                     if (dados !== undefined) RepoGridTrigger = true;
-                    console.log('trigger:', RepoGridTrigger);
                     setCard(dados.map((a) => {
-
-                        // if (dados !== undefined && language !== '') trigger = true;
-
                         return <RepoCard name={a?.name} desc={a?.description} stars={a?.stargazers_count}
-                            topics={a?.topics} watchers={a?.watchers} html_url={a?.link}
-                            homepage={a?.homepage} forks={a?.forks} languages_url={a.languages_url} />
+                            topics={a?.topics} watchers={a?.watchers} html_url={a?.html_url}
+                            homepage={a?.homepage} forks={a?.forks} language={a?.language} />
                     }
                     ));
                 })
             }
-        }, 2100);
-
+        }, 1500);
         return () => clearInterval(interval);
     });
 
-    return (<div>
-        {card}
-    </div>);
+    return (<span className='RepoGrid'> <span className='RepoGrid-grid'> {card} </span> </span>);
 }
 
 export { RepoGrid };
