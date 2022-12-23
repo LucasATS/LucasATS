@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import React from 'react';
 import './index.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('webapp'));
 root.render(
   <BrowserRouter>
     <Routes>

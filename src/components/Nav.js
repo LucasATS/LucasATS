@@ -27,7 +27,7 @@ const Nav = () => {
     HoverDrag('span');
   });
 
-  const navHeight = window.innerHeight;
+  const navHeight = window.innerHeight/2;
   const [navBgColor, setNavBgColor] = useState({});
 
   const scrollFunction = () => {

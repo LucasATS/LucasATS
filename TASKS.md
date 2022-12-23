@@ -3,6 +3,7 @@
 [ ] Corrigir Português
 [ ] Corrigir bug nos Cards Sobremim
 [ ] Refatorar Nav.js
+[ ] Corrigir texto dos históricos
 
 [X] Igual em todas as páginas
   [X] Navbar: 🏠 Home, 🏛️ Projetos (outra pág), 💁🏻 Sobre mim, 👨‍🎓 Contatos, 👩‍💻 Experiencias, 🏠 Certificados.
@@ -23,5 +24,6 @@
 
 [ ] Página Projetos
   [ ] 1° Section: 
+    [ ] API Github.
     [ ] Grid com cards. Os card terão: name, description, stargazers_count, topics, watchers, /languages, html_url, homepage, forks.
     [ ] Filtrar Cards por linguagem, homepage.

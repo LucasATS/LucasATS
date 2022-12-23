@@ -7,7 +7,7 @@
 }
 
 .section1-Card {
-    margin-left: 16px;
+    margin-left: calc(10%);
     margin-top: 50px;
     z-index: 5;
 }
