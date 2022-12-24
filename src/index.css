@@ -1,9 +1,17 @@
+:root {
+  --roxo: #C678DD;
+  --amarelo: #E5C07B;
+  --azul: #56B6C2;
+  --verde: #98C379;
+  --branco: #FEFEFE;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
   /* overflow-x: unset; */
-  
+
   background: #78D5E9;
   /* background: -moz-linear-gradient(top, #78D5E9 0%, #78D5E9 50%, #83E9FF 100%);
   background: -webkit-linear-gradient(top, #2558A9 0%, #78D5E9 50%, #83E9FF 100%); */
@@ -15,10 +23,23 @@ body {
 }
 
 /* SCROLL */
-::-webkit-scrollbar { width: 10px; height: 0px; }
-::-webkit-scrollbar-track { background: #3cbbe3; }
-::-webkit-scrollbar-thumb { background: #209abf; border-radius: 16px; }
-::-webkit-scrollbar-thumb:hover { background: #2c8fac; }
+::-webkit-scrollbar {
+  width: 10px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: #3cbbe3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #209abf;
+  border-radius: 16px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2c8fac;
+}
 
 /* EFEITO LINK ANCORA */
 * {
@@ -44,7 +65,11 @@ body {
   text-align: center
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 600;
   color: #323232;
   font-family: Arial, Helvetica, sans-serif;

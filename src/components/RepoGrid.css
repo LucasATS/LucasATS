@@ -4,31 +4,46 @@
 }
 
 .RepoGrid-grid {
-    display: grid;
-    grid-template-areas: ". . .";
-    gap: 5vw 5vw;
-    /* gap: 50px 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    column-gap: 15px;
+    margin: 25px;
 }
 
 .RepoCard {
     width: 300px;
-    height: auto;
-
+    /* min-height: 350px; */
     border-radius: 6px;
-    background-color: #454545;
+    background-color: #2A2A32;
     position: relative;
     z-index: 1;
-    box-shadow: 0 1px 5px #00000099;
+    /* box-shadow: 0 1px 5px #00000099; */
+    box-shadow: 0 5px 20px 5px #00000044;
 }
 
 .RepoCard * {
     color: white;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .RepoCard-img {
     border-radius: 6px 6px 0px 0px;
     width: 300px;
     height: 150px;
+    filter: brightness(1) blur(0px);
+}
+
+.RepoCard:hover .RepoCard-img {
+    filter: brightness(0.2) blur(1px);
+    transition: all .3s ease;
+}
+
+.RepoCard:hover .RC-desc {
+    color: var(--azul);
+    transition: all .3s ease;
 }
 
 .RepoCard-span-img * {
@@ -36,18 +51,66 @@
     top: 0;
 }
 
-.RepoCard-span-img h4 {
+.RC-titulo {
     top: -10px;
-    left: 14px;
+    left: 10px;
     color: white;
+    border: #98C379 2.5px solid;
     border-radius: 16px;
     padding: 6px;
-    background-color: #424242cc;
+    font-size: 12px;
+    background-color: rgba(42, 42, 50, 0.85);
+}
+
+.RC-language {
+    top: 110px;
+    right: 10px;
+    color: white;
+    border: var(--roxo) 2.5px solid;
+    border-radius: 16px;
+    padding: 6px;
+    font-size: 10px;
+    background-color: rgba(42, 42, 50, 0.85);
+}
+
+.RC-topics {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 0px;
+    column-gap: .5px;
+    margin: 6px 6px 50px 6px;
+}
+
+.RC-topics>h5 {
+    margin: 5px 0px 0px 0px;
+    color: white;
+    border: var(--azul) 2.5px solid;
+    border-radius: 16px;
+    padding: 6px;
+    font-size: 10px;
+    background-color: rgba(42, 42, 50, 0.85);
+}
+
+.RC-desc {
+    color: #00000000;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    top: 20px;
+    left: 0%;
+    right: 0%;
 }
 
 .RepoCard-span-img {
-    height: 150px;
+    min-height: 150px;
+    height: auto;
 }
+
 
 .RepoCard-StarWatchForks {
     position: absolute;
@@ -59,12 +122,17 @@
 }
 
 .RepoCard-LinksExternos {
+    height: auto;
     position: absolute;
     bottom: 0px;
-
     display: flex;
     flex-direction: row;
     gap: 12px;
+    cursor: pointer;
+}
+
+.RepoCard-LinksExternos a:hover h5 {
+    color: var(--amarelo);
 }
 
 .RC-left {
@@ -75,14 +143,8 @@
     right: 16px;
 }
 
-@media screen and (max-width: 851px) {
+@media screen and (max-width: 674px) {
     .RepoGrid-grid {
-        grid-template-areas: ". .";
-    }
-}
-
-@media screen and (max-width: 763px) {
-    .RepoGrid-grid {
-        grid-template-areas: ".";
+        justify-content: space-around;
     }
 }

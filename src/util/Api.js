@@ -1,7 +1,7 @@
 import axios from "axios"
 
-const GetGitHubRepo = async () => {
-    let dados = await axios.get('https://api.github.com/users/LucasATS/repos');
+const GetGitHubRepo = async (user) => {
+    let dados = await axios.get(`https://api.github.com/users/${user}/repos`);
     return { dados };
 }
 
