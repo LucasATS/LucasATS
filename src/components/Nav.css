@@ -3,11 +3,8 @@
     height: 60px;
     width: 100%;
 
-    /* display: flex; */
-    /* justify-content: space-around; */
-
     background-color: rgba(0, 0, 0, 0);
-    border-radius: 0px 0px 25px 25px;
+    border-radius: 0px 0px 15px 15px;
 
     filter: drop-shadow(0px 10px 10px #0000003e);
 
@@ -39,6 +36,7 @@
 
     font-size: 14px;
     font-weight: 600;
+
     color: #ffffff;
     fill: #ffffff;
 
@@ -100,6 +98,15 @@ footer p {
     filter: drop-shadow(0px 10px 10px #0000003e);
 }
 
+footer h5 {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 36px;
+    backdrop-filter: blur(2px);
+    padding: 12px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
 .menu-fechar {
     display: flex;
     flex-direction: row-reverse;
@@ -122,7 +129,7 @@ footer p {
 }
 
 .menu {
-    background-color: #252525e6;
+    background-color: rgba(255, 255, 255, 0.10);
     border-radius: 0px 25px 25px 0px;
     position: fixed;
     z-index: 7;

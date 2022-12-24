@@ -7,6 +7,8 @@
 [ ] Refatorar Nav.js.
 [ ] Refatorar RepoGrid.
 
+[X] SEO.
+
 [X] Igual em todas as páginas
   [X] Navbar: 🏠 Home, 🏛️ Projetos (outra pág), 💁🏻 Sobre mim, 👨‍🎓 Contatos, 👩‍💻 Experiencias, 🏠 Certificados.
   [X] Footer: Contatos; Copyright © 2022. Lucas ATS. All rights reserved, Botões de rede social.
@@ -30,4 +32,4 @@
   [X] Grid com cards. Os card terão: name, description, stargazers_count, topics, watchers, /languages, html_url, homepage, forks.
   [ ] Filtrar Cards por linguagem, homepage.
 
-[ ] Página Esteregg
+[ ] Página Esteregg.

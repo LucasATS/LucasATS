@@ -14,8 +14,12 @@ root.render(
       <Route path='/' element={<Nav />} >
         <Route index element={<Home />} />
         <Route path='/Projetos' element={<Projetos />} />
-        <Route path='/Game' element={<h1>GAME OVER!</h1>}/>
+        {/* <Route path='/Game' element={<Game />} /> */}
       </Route>
+
+      <Route path='/*' element={
+        <h2 className='center' style={{ position: 'relative', zIndex: 2, marginTop: '20%', color: 'white' }}>Ops: 404. Isso significa que encontrou o desconhecido 🧐🤠🤖.</h2>
+      }/>
 
     </Routes>
   </BrowserRouter>
