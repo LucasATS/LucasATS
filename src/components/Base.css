@@ -1,0 +1,35 @@
+a {
+    text-decoration: none;
+}
+
+span {
+    display: inline-block;
+    /* transition: transform 0.1s linear; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    padding: 6px;
+    position: relative;
+    z-index: 2;
+    /* width: 100%;
+    background: #ffffff00 url('../img/bg/grama (1).png') center center/auto repeat-x; */
+}
+
+footer p {
+    gap: 12px;
+    filter: drop-shadow(0px 10px 10px #0000003e);
+}
+
+footer h5 {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 36px;
+    backdrop-filter: blur(2px);
+    padding: 12px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+}

@@ -14,8 +14,8 @@ const textoCards = [
         <br/><span class="branco">}</span></h3>`,
 
     // Objetivos
-    `<h3 class="verde"><span class="roxo">const</span> <span class="amarelo">objetivo</span> <span class="azul">=</span> <span class="branco">{</span>
-        <br/>&nbsp <span class="azul">oqueBusco</span><span class="branco">:</span> "Melhorar as habilidades com código"<span class="branco">,</span>
+    `<h3 class="verde"><span class="roxo">const</span> <span class="amarelo">objetivos</span> <span class="azul">=</span> <span class="branco">{</span>
+        <br/>&nbsp <span class="azul">buscar</span><span class="branco">:</span> "Melhorar as habilidades com código"<span class="branco">,</span>
         <br/>&nbsp <span class="azul">estudar</span><span class="branco">:</span> "Formas de facilitar a vida das pessoas"<span class="branco">,</span>
         <br/>&nbsp <span class="azul">pretendo</span><span class="branco">:</span> "Trabalhar com Startups de inovação"<span class="branco">,</span>
         <br/><span class="branco">}</span></h3>`,

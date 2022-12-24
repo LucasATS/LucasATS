@@ -6,7 +6,7 @@ function Projetos() {
     <div>
       {/* 1° Section */}
       <section>
-        <RepoGrid />
+        <RepoGrid trigger={false}/>
       </section>
     </div>);
 }

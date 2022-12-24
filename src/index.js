@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
-import Nav from './components/Nav';
+import Base from './components/Base';
 import Projetos from './pages/Projetos';
 import Home from './pages/Home';
 import React from 'react';
@@ -11,7 +11,7 @@ root.render(
   <BrowserRouter>
     <Routes>
 
-      <Route path='/' element={<Nav />} >
+      <Route path='/' element={<Base />} >
         <Route index element={<Home />} />
         <Route path='/Projetos' element={<Projetos />} />
         {/* <Route path='/Game' element={<Game />} /> */}

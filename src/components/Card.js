@@ -2,33 +2,38 @@ import { React, useEffect, useState } from "react"
 import { Hover3D } from "../util/Efeitos.js";
 import './Card.css';
 
-var i = 0, j = 1;
-
+var cntLetras = 0, cntFrases = 1;
 const Card = (props) => {
-  // MILISEGUNDOS: 4000ms = 4s
-  const VELOCIDADE_DE_ESCRITA = 16, VELOCIDADE_PASSAR_CARD = 4000;
 
-  const [frases, setFrases] = useState('');
-  const [texto, setTexto] = useState(props.texto[0]);
+  const frases = props.texto;
 
-  const FraseNext = () => {
-    if (j < props.texto.length) {
-      setTexto(props.texto[j]);
-      i = 0; setFrases(''); j++;
-    } else {
-      i = 0; j = -1; setFrases('');
-    }
-  }
+  const VELOCIDADE_DE_ESCRITA = 15, VELOCIDADE_PASSAR_CARD = 4000;  // MILISEGUNDOS: 4000ms = 4s
+  const [montarFrase, setMontarFrase] = useState('');
+  const [fraseAtual, setFraseAtual] = useState(frases[0]);
 
   useEffect(() => {
     Hover3D('div', 25);
   })
 
+  const AvancarCard = () => {
+    if (cntFrases <= frases.length) {
+      setFraseAtual(frases[cntFrases]);
+      cntLetras = 0;
+      setMontarFrase('');
+      cntFrases++;
+
+    } else {
+      cntLetras = 0;
+      cntFrases = 0;
+      setMontarFrase('');
+    }
+  }
+
   useEffect(() => {
     const interval = setInterval(() => {
-      if (i < texto.length) {
-        setFrases(frases + texto.charAt(i));
-        i++;
+      if (cntLetras < fraseAtual.length) {
+        setMontarFrase(montarFrase + fraseAtual.charAt(cntLetras));
+        cntLetras++;
       }
     }, VELOCIDADE_DE_ESCRITA);
     return () => clearInterval(interval);
@@ -36,20 +41,20 @@ const Card = (props) => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      FraseNext();
+      AvancarCard();
     }, VELOCIDADE_PASSAR_CARD);
     return () => clearInterval(interval);
   });
 
   return (
-    <div className="CardHover" onClick={() => FraseNext()}>
+    <div className="CardHover" onLoad={() => { cntLetras = 0; cntFrases = 0; }} onClick={() => AvancarCard()}>
       <div className="Card">
         <span className="rol" style={{ paddingLeft: '0px', transformStyle: 'preserve-3d' }}>
           <span style={{ transform: 'translateZ(40px)' }} className="dot-red" />
           <span style={{ transform: 'translateZ(40px)' }} className="dot-yellow" />
           <span style={{ transform: 'translateZ(40px)' }} className="dot-green" />
         </span>
-        <div style={{ transform: 'translateZ(40px)' }} dangerouslySetInnerHTML={{ __html: frases }} />
+        <div style={{ transform: 'translateZ(40px)' }} dangerouslySetInnerHTML={{ __html: montarFrase }} />
       </div>
     </div>
   );
