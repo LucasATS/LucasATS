@@ -3,6 +3,10 @@
 </p>
   
 # ✨ Olá, sou o Lucas 😎, sou programador e entusiasta de IA 🤖
+<p align="center">
+  <a href="https://lucas-ats.vercel.app/"><img src="https://img.shields.io/badge/-PORTF%C3%93LIO-D089FF?style=for-the-badge" alt="Portifólio"></a>
+</p>
+
 ### Amo Código 🐍, tanto quanto amo Design ✒️. 
 ### Estou me formando 👨‍🎓 em Analise e desenvolvimento de sistemas 💻 na INSTED e estou cursando 4° Semestre Engenharia Elétrica ⚡💡 na UFMS.
 
