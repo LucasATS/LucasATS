@@ -1,5 +1,7 @@
 const Hover3D = (elemento, sensibilidade = 15, classe = '.CardHover') => {
     const link = document.querySelectorAll(classe);
+    alert(navigator.userAgentData.mobile);
+
     if (!navigator.userAgentData.mobile) {
         const animateit = function (e) {
             const elmnto = this.querySelector(elemento);
