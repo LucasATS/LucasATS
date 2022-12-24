@@ -30,6 +30,7 @@ const textoCards = [
         <br/>&nbsp <span class="azul">Blender</span><span class="branco">:</span> "Intermediário"<span class="branco">,</span>
         <br/>&nbsp <span class="azul">C#</span><span class="branco">:</span> "Intermediário"<span class="branco">,</span>
         <br/>&nbsp <span class="azul">SQL</span><span class="branco">:</span> "Intermediário"<span class="branco">,</span>
+        <br/>&nbsp <span class="azul">Android Studio</span><span class="branco">:</span> "Básico"<span class="branco">,</span>
         <br/>&nbsp <span class="azul">PHP</span><span class="branco">:</span> "Básico"<span class="branco">,</span>
         <br/>&nbsp <span class="azul">Django</span><span class="branco">:</span> "Básico"<span class="branco">,</span>
         <br/><span class="branco">}</span>`,
@@ -37,14 +38,14 @@ const textoCards = [
 
 const historico = {
     experiencias: [
-        { titulo: 'Março de 2020 - Janeiro de 2021', desc: 'Exército Brasileiro - TI - Trabalhei com tecnologia da informação, suporte ao usuário, manutenção de maquinas e prestação de serviços militares.' },
-        { titulo: 'Agosto de 2019 - Novembro de 2019', desc: 'ProfEPT/IFMS - Suporte técnico - Auxiliei a turma do 3° ano do ensino médio na Escola Silvio Oliveira dos Santos no desenvolvimentos de jogos digitais voltados à biologia.' },
+        { titulo: 'Março de 2020 - Janeiro de 2021', desc: 'Exército Brasileiro - TI, Suporte ao Usuário, Manutenção de Maquinas e Prestação de Serviços Militares.' },
+        { titulo: 'Agosto de 2019 - Novembro de 2019', desc: 'ProfEPT/IFMS - Suporte técnico - Mentoria da turma do 3° ano do Ensino Médio na Escola Silvio Oliveira dos Santos no desenvolvimentos de jogos digitais voltados à biologia.' },
         { titulo: 'Janeiro de 2017 - Maio 2018', desc: 'Gente Sip - Assistente Administrativo (Menor Aprendiz)' },
     ],
     formacaoAcademica: [
         { titulo: '2021 - 2026', desc: 'UFMS - Bacharelado em Engenharia Elétrica, Tecnologia em Engenharia Elétrica e Eletrônica.' },
         { titulo: '2021 - 2023', desc: 'Faculdade Insted - Analise e Desenvolvimento de Sistemas, Tecnologia da Informação.' },
-        { titulo: '2018', desc: 'Escola Dona Consuelo Müller - Ensino Médio Completo.' },
+        // { titulo: '2018', desc: 'Escola Dona Consuelo Müller - Ensino Médio Completo.' },
     ],
     certificados: [
         { titulo: 'Janeiro 2022', desc: 'Escola Conquer - Produtividade e Gestão do Tempo - Código da credencial: 44cac8ca-bcb8-4307-96ea-a5f72f92c40b' },

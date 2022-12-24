@@ -1,10 +1,11 @@
 # 🎯 METAS
 
-[ ] Corrigir Português
-[ ] Corrigir bug nos Cards Sobremim
-[ ] Refatorar Nav.js
-[ ] Corrigir texto dos históricos
-[ ] Refatorar RepoGrid
+[X] Bloquar Efeitos.js para dispositivos móveies.
+[X] Corrigir texto dos históricos.
+[ ] Corrigir bug nos Cards Sobremim.
+[ ] Corrigir Português.
+[ ] Refatorar Nav.js.
+[ ] Refatorar RepoGrid.
 
 [X] Igual em todas as páginas
   [X] Navbar: 🏠 Home, 🏛️ Projetos (outra pág), 💁🏻 Sobre mim, 👨‍🎓 Contatos, 👩‍💻 Experiencias, 🏠 Certificados.
@@ -24,7 +25,9 @@
   [X] Corrigir CSS dos Históricos
 
 [ ] Página Projetos
- [ ] 1° Section: 
+ [ ] 1° Section:
   [X] API Github.
   [X] Grid com cards. Os card terão: name, description, stargazers_count, topics, watchers, /languages, html_url, homepage, forks.
   [ ] Filtrar Cards por linguagem, homepage.
+
+[ ] Página Esteregg

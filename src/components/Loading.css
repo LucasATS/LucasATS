@@ -16,43 +16,13 @@
 }
 
 @keyframes load {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(0);
-        background-color: var(--color);
-    }
-
-    100% {
-        transform: scale(1);
-    }
+    0% { transform: scale(1); }
+    50% { transform: scale(0); background-color: var(--color); }
+    100% { transform: scale(1); }
 }
 
-.one {
-    --color: magenta;
-}
-
-.two {
-    animation-delay: 0.1s;
-    --color: lime;
-}
-
-
-.three {
-    animation-delay: 0.2s;
-    --color: blue;
-}
-
-
-.four {
-    animation-delay: 0.3s;
-    --color: yellow;
-}
-
-
-.five {
-    animation-delay: 0.4s;
-    --color: orange;
-}
+.one { --color: magenta; }
+.two { animation-delay: 0.1s; --color: lime; }
+.three { animation-delay: 0.2s; --color: blue; }
+.four { animation-delay: 0.3s; --color: yellow; }
+.five { animation-delay: 0.4s; --color: orange; }

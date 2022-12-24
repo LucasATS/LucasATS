@@ -96,12 +96,12 @@
 .RC-desc {
     color: #00000000;
     font-size: 14px;
-    text-align: center;
+    text-align: justify;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 16px;
-    top: 20px;
+    top: 15px;
     left: 0%;
     right: 0%;
 }
