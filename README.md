@@ -25,3 +25,5 @@
   <img src="https://github-readme-stats.vercel.app/api?username=LucasATS&amp;show_icons=true" alt="Lucas&#39;s GitHub stats">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasATS&amp;layout=compact" alt="Top Langs">
 </p>
+
+![](https://gpvc.arturio.dev/lucasATS)
