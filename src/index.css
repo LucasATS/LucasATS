@@ -21,7 +21,7 @@ body {
   overflow-x: hidden;
 }
 
-/* SCROLL
+/* SCROLL */
 ::-webkit-scrollbar {
   width: 8px;
   height: 0px;
@@ -38,7 +38,7 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #048de3;
-} */
+}
 
 /* EFEITO LINK ANCORA */
 * {
