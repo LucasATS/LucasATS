@@ -3,6 +3,7 @@
 - [ ] Corrigir Português.
 - [ ] Corrigir bug nos Cards Sobremim.
 - [ ] Corrigir BUG: O site não funciona em dispositivos IOS.
+- [X] Corrigir BUG: O site não parou de mostrar os timeline de forma correta.
 - [X] Bloquar Efeitos.js para dispositivos móveies.
 - [X] Corrigir texto dos históricos.
 - [X] Refatorar RepoGrid.
