@@ -4,7 +4,9 @@
   
 # ✨ Olá, sou o Lucas 😎, sou programador e entusiasta de IA 🤖
 <p align="center">
+  ✨⭐⭐
   <a href="https://lucas-ats.vercel.app/"><img src="https://img.shields.io/badge/-PORTF%C3%93LIO-D089FF?style=for-the-badge" alt="Portifólio"></a>
+  ⭐⭐✨
 </p>
 
 ### Amo Código 🐍, tanto quanto amo Design ✒️. 
