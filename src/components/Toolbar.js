@@ -48,6 +48,7 @@ const Toolbar = () => {
         <nav className='nav-painel' style={navStyle}>
             <Link className='center hover-this' to="" onClick={() => { window.location.href = "#inicio"; }}><span>😎 LucasATS</span></Link>
             <Link className='center hover-this' to="Projetos"><span>🏛️ Projetos</span></Link>
+            <Link className='center hover-this' to="Artigos"><span>📰 Artigos</span></Link>
             <Link className='center hover-this' to="" onClick={() => { window.location.href = "#Experiências"; }}><span>👩‍💻 Experiências</span></Link>
             <Link className='center hover-this' to="" onClick={() => { window.location.href = "#FormacaoAcademica"; }}><span>👨‍🎓 Formação Acadêmica</span></Link>
             <Link className='center hover-this' to="" onClick={() => { window.location.href = "#Certificados"; }}><span>🎓 Certificados</span></Link>

@@ -13,11 +13,13 @@ root.render(
       <Route path='' element={<Base />} >
         <Route index element={<Home />} />
         <Route path='/Projetos' element={<Projetos />} />
-        {/* <Route path='/Game' element={<Game />} /> */}
+        <Route path='/Artigos' element={
+          <h2 className='center' style={{ position: 'relative', zIndex: 2, marginTop: '20%', color: 'green', background: 'black', fontFamily: "'Source Code Pro', monospace" }}>👩🤠🤖 Zip Zop Zum, a página esta em construção.</h2>
+        } />
       </Route>
 
       <Route path='*' element={
-        <h2 className='center' style={{ position: 'relative', zIndex: 2, marginTop: '20%', color: 'green', background: 'black', fontFamily: "'Source Code Pro', monospace" }}>Ops: 404. Isso significa que encontrou o desconhecido 🧐🤠🤖.</h2>
+        <h2 className='center' style={{ position: 'relative', zIndex: 2, marginTop: '20%', color: 'green', background: 'black', fontFamily: "'Source Code Pro', monospace" }}>Ops: 404. Isso significa que encontrou o desconhecido 👩🤠🤖.</h2>
       } />
 
     </Routes>
