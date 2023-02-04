@@ -73,7 +73,7 @@ const Toolbar = () => {
                     <path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M33.73372,23.59961l-10.13411,10.13411l52.26628,52.26628l-52.26628,52.26628l10.13411,10.13411l52.26628,-52.26628l52.26628,52.26628l10.13411,-10.13411l-52.26628,-52.26628l52.26628,-52.26628l-10.13411,-10.13411l-52.26628,52.26628z"></path></g></g></svg>
             </span>
             <nav class="col center nav-painel-mobile-vertical">
-                {/* <Link className='center hover-this' to="Projetos"><span>🏛️ Projetos</span></Link> */}
+                <Link className='center hover-this' to="Artigos"><span>📰 Artigos</span></Link>
                 <Link className='center hover-this' to="" onClick={() => { window.location.href = "#Experiências"; }}><span>👩‍💻 Experiências</span></Link>
                 <Link className='center hover-this' to="" onClick={() => { window.location.href = "#FormacaoAcademica"; }}><span>👨‍🎓 Formação Acadêmica</span></Link>
                 <Link className='center hover-this' to="" onClick={() => { window.location.href = "#Certificados"; }}><span>🎓 Certificados</span></Link>
