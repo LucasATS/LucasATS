@@ -9,6 +9,7 @@
   ⭐⭐✨
 </p>
 
+#### My Name is Thalia <img height="20" src="https://em-content.zobj.net/thumbs/120/emojipedia/240/transgender-flag_1f3f3-fe0f-200d-26a7-fe0f.png">
 ### Amo Código 🐍, tanto quanto amo Design ✒️. 
 ### Estou me formando 👨‍🎓 em Analise e desenvolvimento de sistemas 💻 na INSTED e estou cursando 4° Semestre Engenharia Elétrica ⚡💡 na UFMS.
 
