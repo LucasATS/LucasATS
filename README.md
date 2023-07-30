@@ -2,16 +2,17 @@
   <img height="100" alt="Hello world" src="https://i0.wp.com/polekon.org/wp-content/uploads/2021/12/hello_world_title3.gif?resize=700%2C239&ssl=1">
 </p>
   
-# ✨ Olá, sou o Lucas 😎, sou programador e entusiasta de IA 🤖
+# Olá, sou o Lucas ✨ programador e entusiasta de IA 🤖
 <p align="center">
   ✨⭐⭐
   <a href="https://lucas-ats.vercel.app/"><img src="https://img.shields.io/badge/-PORTF%C3%93LIO-D089FF?style=for-the-badge" alt="Portifólio"></a>
   ⭐⭐✨
 </p>
 
-#### My Name is Thalia <img height="20" src="https://em-content.zobj.net/thumbs/120/emojipedia/240/transgender-flag_1f3f3-fe0f-200d-26a7-fe0f.png">
-### Amo Código 🐍, tanto quanto amo Design ✒️. 
-### Estou me formando 👨‍🎓 em Analise e desenvolvimento de sistemas 💻 na INSTED e estou cursando 4° Semestre Engenharia Elétrica ⚡💡 na UFMS.
+<!-- #### My Name is Thalia <img height="20" src="https://em-content.zobj.net/thumbs/120/emojipedia/240/transgender-flag_1f3f3-fe0f-200d-26a7-fe0f.png"> -->
+
+### Amo Código <img height="20" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"> <img height="20"  style="border-radius: 6px;" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg">, tanto quanto amo Design ✒️. 
+### Graduado 👨‍🎓 em Analise e desenvolvimento de sistemas 💻 na ``INSTED`` e estou cursando 6° Semestre Engenharia Elétrica ⚡💡 na ``UFMS``.
 
 ## __😜 LINKS__
 <p align="center">
