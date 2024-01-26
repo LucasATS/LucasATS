@@ -38,7 +38,7 @@ const textoCards = [
 
 const historico = {
     experiencias: [
-        { titulo: 'Março de 2020 - Janeiro de 2021', desc: 'Exército Brasileiro - TI, Suporte ao Usuário, Manutenção de Computadores e Prestação de Serviços Militares.' },
+        // { titulo: 'Março de 2020 - Janeiro de 2021', desc: 'Exército Brasileiro - TI, Suporte ao Usuário, Manutenção de Computadores e Prestação de Serviços Militares.' },
         { titulo: 'Agosto de 2019 - Novembro de 2019', desc: 'ProfEPT/IFMS - Suporte técnico - Mentoria da turma do 3° ano do Ensino Médio na Escola Silvio Oliveira dos Santos no desenvolvimentos de jogos digitais voltados à biologia.' },
         { titulo: 'Janeiro de 2017 - Maio 2018', desc: 'Gente Sip - Assistente Administrativo (Menor Aprendiz)' },
     ],
